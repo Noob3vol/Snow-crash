@@ -6,7 +6,7 @@ The level 01 user doesn't have any special files, so we need to find the flag so
 ## Solution
 Use `cat /etc/passwd` to look for all user .
 
-![/etc/passwd displayed](level_01.png "It Never Happens")
+![/etc/passwd displayed](level01_1.png "It Never Happens")
 
 - We found  **42hDRfypTqqnw** . <br>
 Unfortunately, this is not the password for `su flag01` but we can attempt to decrypt it with john the ripper on a kali vm.
