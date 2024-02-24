@@ -1,37 +1,32 @@
-flag00: nottohardhere
-level01: x24ti5gi3x0ol2eh4esiuxias
-
-flag01: abcdefg
-level02: f2av5il02puano7naaf6adaaf
-
-flag02:ft_waNDReL0L
-level03:kooda2puivaav1idi4f57q8iq
+password: level00
+flag: nottohardhere
 
 
-level04:qi0maab88jeaj46qoumi7maus
+password: x24ti5gi3x0ol2eh4esiuxias
+flag: abcdefg
 
 
-level05:ne2searoevaevoem4ov4ar8ap
+password: f2av5il02puano7naaf6adaaf
+flag: ft_waNDReL0L
+
+password: kooda2puivaav1idi4f57q8iq
+
+
+password:qi0maab88jeaj46qoumi7maus
+
+
+password: ne2searoevaevoem4ov4ar8ap
 
 
 > Write a script in opt/openarenaserver :   /bin/getflag > /tmp/flag05
 > Reed /tmp/flag05
 
+password: viuaaale9huek52boumoomioc
 
-level06:viuaaale9huek52boumoomioc
+password: wiok45aaoguiboiki2tuin6ub
 
-> Le home est composer d'un binaire ainsi que d'un script php
-> *image du home
-> En analysant le php on constate l'utilisation de reg_replace souvent et suite a des recherches
-nous trouvons une exploitation possible via l'option `/e` qui 'evalue' le second argument de reg_replace
-`y(\"\\2\")`, le \\2 ici present est un token de la string de remplacement recuperant le contenue de la chaine matched dans les deuxieme parenthese
+password: fiumuikeil55xe9cu4dood66h
+flag: quif5eloekouj29ke0vouxean
 
-
-> Toutefois ce token etant expand dans des doubles guillement on dois faire de la string interpolation
-pour pouvoir executer une commande autre que y()
-
-
-level07: wiok45aaoguiboiki2tuin6ub
-
-
-level08: fiumuikeil55xe9cu4dood66h
+password: 25749xKZ8L7DkSCwJkT9dyv6f
+flag: f3iji1ju5yuevaus41q1afiuq
